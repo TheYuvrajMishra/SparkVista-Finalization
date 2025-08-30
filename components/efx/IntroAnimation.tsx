@@ -106,31 +106,6 @@ export default function IntroAnimation({
         }}
         className="font-thin md:hidden flex-col fixed left-5 top-72 z-50 text-3xl text-center flex items-center gap-2 text-transparent bg-clip-text bg-gradient-to-t from-white via-white/50 to-white"
       >
-        <span>SparkVista - Architecture, Design, 3D</span>
-        <motion.div
-          onClick={handleScroll}
-          // Added relative and overflow-hidden to create a clipping mask for the animation
-          className="relative overflow-hidden text-xs md:hidden z-50 flex items-center justify-center rounded-full bg-white/10 px-2 py-1 text-white/50 shadow-lg ring-1 ring-white/20 backdrop-blur-sm cursor-pointer pointer-events-auto"
-          style={{
-            // Explicitly set a height to ensure overflow works consistently
-            height: "20px",
-            width: "80px", // And a width to contain the content
-          }}
-        >
-          {/* This inner div handles the infinite scrolling animation */}
-          <motion.div
-            className="absolute flex items-center gap-2"
-            animate={{ y: ["-150%", "150%"] }} // Animate from above the container to below it
-            transition={{
-              duration: 1,
-              ease: "linear",
-              repeat: Infinity, // Loop the animation forever
-            }}
-          >
-            <span>Scroll</span>
-            <BsArrowDown />
-          </motion.div>
-        </motion.div>
       </motion.div>
 
       <div className="sticky top-0 h-screen overflow-hidden">
@@ -157,13 +132,13 @@ export default function IntroAnimation({
           style={{ scale: smoothScale, opacity: imageOpacity }}
           className="relative z-10 flex h-full items-center justify-center pointer-events-none" // <-- CHANGED
         >
-          <div className="relative h-[500vh] w-[500vw]">
+          <div className="relative h-[50vh] w-[50vw]">
             <Image
-              src={imageUrl}
+              src="/images/sparkvista-logo.png"
               alt="Abstract intro image"
               fill
               priority
-              className="object-cover"
+              className="object-contain"
             />
           </div>
         </motion.div>

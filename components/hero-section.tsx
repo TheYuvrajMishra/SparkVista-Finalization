@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 text-white"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 text-white bg-[url('/HeroBackground.jpeg')] bg-cover bg-center bg-fixed bg-opacity-50 bg-no-repeat"
     >
       {" "}
       <div className="absolute top-15 md:hidden bottom-25 opacity-35">
@@ -16,25 +16,25 @@ export default function HeroSection() {
       </div>
       <div className="container mx-auto text-center z-30">
         <div className="md:relative absolute top-20">
-        {/* Main Headline */}
-        <h1 className="text-2xl md:relative mb-3 md:mb-3 sm:text-4xl md:text-8xl lg:text-7xl xl:text-8xl text-left mt-0 md:-mt-0 md:text-center font-extralight leading-tight animate-fade-in-up drop-shadow-xl text-transparent bg-clip-text bg-gradient-to-t from-white via-white/10 to-white">
-          Elevating Spaces
-          <br />
-          <span className="block text-3xl sm:text-6xl md:text-9xl lg:text-8xl font-bold mt-2 text-transparent bg-clip-text bg-gradient-to-t from-white via-white/5 to-white">
-            Crafting Dreams
-          </span>
-        </h1>
+          {/* Main Headline */}
+          <h1 className="text-2xl md:relative mb-3 md:mb-3 sm:text-4xl md:text-8xl lg:text-7xl xl:text-8xl text-left mt-0 md:-mt-0 md:text-center font-extralight leading-tight animate-fade-in-up drop-shadow-xl text-transparent bg-clip-text bg-gradient-to-t from-white via-black/20 to-white">
+            Elevating Spaces
+            <br />
+            <span className="block text-3xl sm:text-6xl md:text-9xl lg:text-8xl font-bold mt-2 text-transparent bg-clip-text bg-gradient-to-t from-white via-white/5 to-white">
+              Crafting Dreams
+            </span>
+          </h1>
 
-        {/* 👇 Mobile-only paragraphs */}
-        <div className="block md:hidden mt-4 mb-10 px-2 text-left">
-          <p className="text-xs sm:text-sm text-white/80 leading-relaxed mb-2">
-            We don’t just design spaces. We shape experiences.
-          </p>
-          <p className="text-xs sm:text-sm text-white/60 leading-relaxed">
-            Discover how SparkVista transforms everyday places into living,
-            breathing works of art.
-          </p>
-        </div>
+          {/* 👇 Mobile-only paragraphs */}
+          <div className="block md:hidden mt-4 mb-10 px-2 text-left">
+            <p className="text-xs sm:text-sm text-white/80 leading-relaxed mb-2">
+              We don’t just design spaces. We shape experiences.
+            </p>
+            <p className="text-xs sm:text-sm text-white/60 leading-relaxed">
+              Discover how SparkVista transforms everyday places into living,
+              breathing works of art.
+            </p>
+          </div>
         </div>
 
         {/* Subtext with Shiny Effect */}
@@ -42,7 +42,7 @@ export default function HeroSection() {
           text="Pure Design. Purposeful Space."
           disabled={false}
           speed={5}
-          className="text-xs sm:text-sm md:text-lg bg-white/5 border border-white/10 px-6 py-1 inline-block rounded-full mt-[20rem] md:mt-20 animate-fade-in-up animation-delay-200"
+          className="text-xs sm:text-sm md:text-lg backdrop-blur-xl bg-white/20 border border-white/10 px-6 py-1 inline-block rounded-full mt-[20rem] md:mt-20 animate-fade-in-up animation-delay-200"
         />
 
         {/* Buttons */}

@@ -48,6 +48,7 @@ export default function Home() {
         </div>
 
         {/* The rest of your page content */}
+        <div className="mb-5"></div>
         <ScrollVelocity
           texts={["Explore Our Designs", "Modern Architecture"]}
           velocity={50}
