@@ -4,6 +4,8 @@ import { projects } from "@/components/data/projects"; // Adjust path as needed
 import NoiseOverlay from "@/components/efx/NoiseOverlay";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Link from "next/link";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
 export async function generateStaticParams() {
   return projects.map((project) => ({
@@ -38,6 +40,9 @@ export default function ProjectDetailPage({
       <NoiseOverlay />
       <Header />
       <div className="container pt-20 mb-10 mx-auto px-4 sm:px-6 lg:px-8">
+        <Link href={"/portfolio/exterior-designs"}>
+          <ArrowLeft className="text-white fixed top-3 bg-white/20 cursor-pointer p-2 hover:bg-white/50 left-10 h-10 w-10 mt-5" />
+        </Link>
         <div
           style={{ backgroundImage: `url(${project.image})` }}
           className="h-96 bg-cover bg-center bg-fixed mt-5"
@@ -138,6 +143,13 @@ export default function ProjectDetailPage({
            </div>
         </section>
         */}
+      </div>
+      <div className="bg-red-800 text-white/70 w-[80vw] md:text-lg text-xs mb-10 mt-20 px-5 py-5 mx-auto">
+        Liked Our Work?{" "}
+        <Link href="/#contact" className="text-white underline">
+          Contact Us
+        </Link>{" "}
+        for Your Own Space Transformation!
       </div>
       <Footer />
     </main>

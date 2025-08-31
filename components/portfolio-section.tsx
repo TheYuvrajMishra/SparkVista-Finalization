@@ -173,7 +173,7 @@ const projects = [
   {
     id: "interior-designs",
     title: "Interior Designs",
-    image: "https://tse2.mm.bing.net/th/id/OIP.65WcYBMnJ54SHaaPnLV_pQAAAA?w=300&h=300&rs=1&pid=ImgDetMain&o=7&rm=3",
+    image: "https://chiedesign.in/wp-content/uploads/2022/05/Luxury-Interior-Design-Living-Room.jpg",
     designType: "Interior Design",
     description: "A complete interior overhaul for a modern family home, focusing on open spaces, natural light, and minimalist aesthetics.",
   },
@@ -182,7 +182,7 @@ const projects = [
     title: "Exterior Designs",
     image: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/070266139515397.6230f095b1882.jpeg",
     designType: "Exterior Design",
-    description: "This project involved designing a striking facade for a new urban villa, blending contemporary lines with durable, natural materials.",
+    description: "A Complete designing a striking facade for a new urban villa, blending contemporary lines with durable, natural materials.",
   }
 ];
 

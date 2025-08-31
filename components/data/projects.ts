@@ -64,17 +64,17 @@ export const projects: Project[] = [
     description: "Located in the serene landscapes of Rajasthan, Villa Montelagoon is an oasis of tranquility. The design incorporates traditional Rajasthani architectural elements with contemporary needs, creating a space that is both grand and intimate.",
     gallery: [
       {
-        url: "https://images.adsttc.com/media/images/5f75/1739/b357/657d/7900/017c/large_jpg/NUD_Architects_VILLA_ANAYA-7.jpg",
+        url: "https://th.bing.com/th/id/R.dc9a9f1077eb96cbc13db9d86ef591eb?rik=B6VjVSlKFeG1Eg&riu=http%3a%2f%2fwww.thewowdecor.com%2fwp-content%2fuploads%2f2015%2f06%2fexterior-modern-homes-exterior-designs-ideas-with-white-wall-color-combine-with-stone-wall-layer-also-minimalist-style.jpg&ehk=FnYbAEU9PdsS0%2bji1G0YfHGPqbXD5wwYqAAhahgCYvw%3d&risl=&pid=ImgRaw&r=0",
         title: "Courtyard Perspective",
         description: "The central courtyard acts as the heart of the home, designed for natural ventilation and light."
       },
       {
-        url: "https://images.adsttc.com/media/images/5f75/175b/b357/657d/7900/017e/large_jpg/NUD_Architects_VILLA_ANAYA-2.jpg",
+        url: "https://tse1.mm.bing.net/th/id/OIP.PnlOSsrpwglIY-z4I-veFwHaE8?w=1200&h=800&rs=1&pid=ImgDetMain&o=7&rm=3",
         title: "Architectural Lines",
         description: "Clean lines and geometric shapes define the villa's modern structure against the Rajasthani landscape."
       },
       {
-        url: "https://images.adsttc.com/media/images/5f75/1720/b357/657e/1700/018b/large_jpg/NUD_Architects_VILLA_ANAYA-9.jpg",
+        url: "https://tse1.mm.bing.net/th/id/OIP.C3oMmProjNQQg2Ql2-XsZQHaFj?w=1024&h=768&rs=1&pid=ImgDetMain&o=7&rm=3",
         title: "Minimalist Interior",
         description: "The interior spaces are designed with minimalism in mind, emphasizing space and tranquility."
       }
@@ -93,17 +93,17 @@ export const projects: Project[] = [
     description: "A marvel of modern engineering, The Glass House is designed to offer panoramic views of the Blue Ridge Mountains. Its minimalist design emphasizes transparency and a seamless connection with the surrounding nature.",
     gallery: [
       {
-        url: "https://images.adsttc.com/media/images/5e83/8e98/b357/652d/3a00/011e/large_jpg/01_Exterior_House_in_the_landscape.jpg",
+        url: "https://mydesignagenda.com/wp-content/uploads/2017/02/best-interior-design-projects-by-kelly-hoppen-hong-kong.jpg",
         title: "Harmony with Nature",
         description: "The structure is carefully situated to blend in with the natural topography and surrounding forest."
       },
       {
-        url: "https://images.adsttc.com/media/images/5e83/8f2c/b357/652d/3a00/0124/large_jpg/10_Living_room_and_view.jpg",
+        url: "https://en.idei.club/uploads/posts/2023-03/1678944743_en-idei-club-p-kelly-hoppen-interior-design-dizain-krasiv-33.jpg",
         title: "Expansive Views",
         description: "Floor-to-ceiling glass walls in the living room frame breathtaking views of the mountains."
       },
       {
-        url: "https://images.adsttc.com/media/images/5e83/8f83/b357/652d/3a00/0128/large_jpg/14_Exterior_and_interior_spaces.jpg",
+        url: "https://th.bing.com/th/id/R.8311e5fba5e4f0bd0ea5de4b62e44d35?rik=MRUGEG7CYy4bEA&riu=http%3a%2f%2fmodernchairs.eu%2fwp-content%2fuploads%2f2018%2f01%2fofoe_sinatra_a_007.jpg&ehk=12QxYStMGrZl83VrDZFyPjgi1amVU1NPmvYFAapWHIc%3d&risl=&pid=ImgRaw&r=0",
         title: "Seamless Transition",
         description: "The design emphasizes the flow between indoor and outdoor living spaces, blurring the boundaries."
       }
