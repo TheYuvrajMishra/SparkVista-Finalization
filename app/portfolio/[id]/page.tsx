@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { projects } from "@/components/data/projects"; // Adjust path as needed
+import { projects } from "@/components/data/projects";
 import NoiseOverlay from "@/components/efx/NoiseOverlay";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
@@ -22,16 +22,6 @@ export default function ProjectDetailPage({
     notFound();
   }
 
-  /*
-  // Helper array for the bordered list at the bottom
-  const projectDetails = [
-    { label: "PROJECT", value: project.title },
-    { label: "LOCATION", value: project.location },
-    { label: "AREA", value: project.size },
-    { label: "YEAR", value: project.status === "Ongoing" ? project.status : project.year },
-  ];
-  */
-
   return (
     // Main container with a dark theme
     <main className="bg-[#0D0D0D] text-white/90 min-h-screen">
@@ -42,7 +32,7 @@ export default function ProjectDetailPage({
           style={{ backgroundImage: `url(${project.image})` }}
           className="h-96 bg-cover bg-center bg-fixed mt-5"
         >
-          {/* You can place content inside this div if you want text over the image */}
+
         </div>
         {/* --- Section 1: Centered Title, Location, and Design Type --- */}
         <section className="text-center max-w-4xl mx-auto">
@@ -53,7 +43,6 @@ export default function ProjectDetailPage({
               <div className="border border-zinc-700/80 rounded-full px-5 py-1 hover:bg-zinc-800/50 transition-colors duration-300">
                 <span className="text-xs font-mono tracking-widest uppercase text-zinc-400">
                   {project.designType}{" "}
-                  {/* Make sure 'designType' exists in your project data */}
                 </span>
               </div>
               <div className="flex-grow h-px bg-white/10"></div>
@@ -62,25 +51,6 @@ export default function ProjectDetailPage({
           <h1 className="text-4xl md:text-5xl font-serif tracking-widest mt-5 uppercase text-white">
             {project.title}
           </h1>
-
-          {/*
-           <p className="mt-2 text-base text-zinc-400">{project.location}</p>
-           
-           <div className="mt-12 flex justify-center items-center gap-12 text-sm">
-             <div>
-               <span className="text-zinc-500">Type</span>
-               <p className="mt-1 text-zinc-200">{project.type}</p>
-             </div>
-             <div>
-               <span className="text-zinc-500">Size</span>
-               <p className="mt-1 text-zinc-200">{project.size}</p>
-             </div>
-             <div>
-               <span className="text-zinc-500">Status</span>
-               <p className="mt-1 text-zinc-200">{project.status}</p>
-             </div>
-           </div>
-           */}
         </section>
 
         {/* --- Section 2: Centered Description --- */}
@@ -121,23 +91,6 @@ export default function ProjectDetailPage({
             </div>
           ))}
         </section>
-
-        {/*
-        // --- Section 4: Bordered Project Details Table --- 
-        <section className="max-w-4xl mb-24 mx-auto mt-24">
-           <div className="border-t border-zinc-800">
-             {projectDetails.map((detail, index) => (
-               <div 
-                 key={index} 
-                 className="flex justify-between items-center py-4 border-b border-zinc-800 text-sm"
-               >
-                 <span className="text-zinc-400">{detail.label}</span>
-                 <span className="font-medium text-right text-zinc-100">{detail.value}</span>
-               </div>
-             ))}
-           </div>
-        </section>
-        */}
       </div>
       <Footer />
     </main>

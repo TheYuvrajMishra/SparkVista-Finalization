@@ -27,7 +27,6 @@ export default function ExteriorDesignPage() {
           }}
           className="h-96 bg-contain bg-center bg-fixed mt-5"
         >
-          {/* You can place content inside this div if you want text over the image */}
         </div>
         <div className="container pt-32 mb-10 mx-auto px-4 sm:px-6 lg:px-8">
           {/* --- Page Header --- */}
@@ -71,9 +70,6 @@ export default function ExteriorDesignPage() {
 
                 {/* Text Column */}
                 <div className="w-full md:w-1/2 text-center md:text-left">
-                  {/* <span className="text-xs font-mono tracking-widest uppercase text-zinc-400">
-                    {project.location}
-                  </span> */}
                   <h2 className="text-3xl font-serif text-white mt-2 mb-4">
                     {project.title}
                   </h2>

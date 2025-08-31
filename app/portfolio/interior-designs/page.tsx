@@ -2,14 +2,13 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { projects } from "@/components/data/projects"; // Make sure this path is correct
+import { projects } from "@/components/data/projects";
 import NoiseOverlay from "@/components/efx/NoiseOverlay";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { ArrowLeft } from "lucide-react";
 
 export default function InteriorDesignPage() {
-  // Filter projects to get only those with designType "Interior Design"
   const interiorProjects = projects.filter(
     (project) => project.designType === "Interior Design"
   );
@@ -28,7 +27,6 @@ export default function InteriorDesignPage() {
           }}
           className="h-96 bg-contain bg-center bg-fixed mt-5"
         >
-          {/* You can place content inside this div if you want text over the image */}
         </div>
       <div className="container pt-32 mb-10 mx-auto px-4 sm:px-6 lg:px-8">
         {/* --- Page Header --- */}
@@ -72,9 +70,6 @@ export default function InteriorDesignPage() {
 
               {/* Text Column */}
               <div className="w-full md:w-1/2 text-center md:text-left">
-                {/* <span className="text-xs font-mono tracking-widest uppercase text-zinc-400">
-                  {project.location}
-                </span> */}
                 <h2 className="text-3xl font-serif text-white mt-2 mb-4">
                   {project.title}
                 </h2>
