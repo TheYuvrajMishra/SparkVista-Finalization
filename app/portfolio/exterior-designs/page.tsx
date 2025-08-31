@@ -19,7 +19,7 @@ export default function ExteriorDesignPage() {
       <Header />
       <div className="container pt-20 mb-10 mx-auto px-4 sm:px-6 lg:px-8">
         <Link href={"/#home"}>
-          <ArrowLeft className="text-white fixed top-3 bg-white/20 cursor-pointer p-2 hover:bg-white/50 left-10 h-10 w-10 mt-5" />
+          <ArrowLeft className="text-white z-100 fixed top-3 bg-white/20 cursor-pointer p-2 hover:bg-white/50 left-10 h-10 w-10 mt-5" />
         </Link>
         <div
           style={{

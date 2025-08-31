@@ -30,7 +30,7 @@ export default function ProjectDetailPage({
       <Header />
       <div className="container pt-20 mb-10 mx-auto px-4 sm:px-6 lg:px-8">
         <Link href={"/portfolio/interior-designs"}>
-          <ArrowLeft className="text-white fixed top-3 bg-white/20 cursor-pointer p-2 hover:bg-white/50 left-10 h-10 w-10 mt-5" />
+          <ArrowLeft className="text-white z-100 fixed top-3 bg-white/20 cursor-pointer p-2 hover:bg-white/50 left-10 h-10 w-10 mt-5" />
         </Link>
         <div
           style={{ backgroundImage: `url(${project.image})` }}
@@ -94,7 +94,7 @@ export default function ProjectDetailPage({
           ))}
         </section>
       </div>
-      <div className="bg-red-800 text-white/70 w-[80vw] md:text-lg text-xs mt-20 px-5 py-5 mx-auto">
+      <div className="bg-red-800 text-white/70 w-[80vw] md:text-lg text-xs mb-10 mt-20 px-5 py-5 mx-auto">
         Liked Our Work?{" "}
         <Link href="/#contact" className="text-white underline">
           Contact Us
